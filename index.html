@@ -317,28 +317,7 @@ function firstFrame() {
             font: {size: 16, color: 'indigo'},
             showarrow: false,
         }, 
-        // {
-        //     xref: 'paper',
-        //     yref: 'paper',
-        //     x: 1,
-        //     xanchor: 'right',
-        //     y: 1.07,
-        //     yanchor: 'bottom',
-        //     text: `Energy = ${realEnergy(energy)}`,
-        //     font: {size: 16},
-        //     showarrow: false,
-        // },
-        // {
-        //     xref: 'paper',
-        //     yref: 'paper',
-        //     x: 1,
-        //     xanchor: 'right',
-        //     y: 1,
-        //     yanchor: 'bottom',
-        //     text: `Minimum Energy = ${realEnergy(minenergy)}`,
-        //     font: {size: 16},
-        //     showarrow: false,
-        // } 
+
         ]
     };
     var data = [trace0, trace1];
@@ -473,7 +452,6 @@ function update() {
 
 
 function updatebest() {
-    // if (((t-best_t)/best_t > 3) || t>100000)  {
     if (t>3000)  {
         return 0;
     }
@@ -645,7 +623,7 @@ Plotly.newPlot(ENERGY, energyData, energyLayout);
 </body>
 <footer>
     Demo page created by: Ginger Lau <br>
-    For more information, see <a href="https://physics.emory.edu/faculty/boettcher/" style="background-color:#BCC6CC">physics.emory.edu/faculty/boettcher/</a>
+    For more information, see <a href="https://physics.emory.edu/faculty/boettcher/" style="background-color:#BCC6CC" target=”_blank”>physics.emory.edu/faculty/boettcher/</a>
 
 </footer>
 </html>
