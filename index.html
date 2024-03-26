@@ -50,18 +50,18 @@
 
 <body>
 
-    <h2>Extremal Optimization Simulation for Sherrington–Kirkpatrick Spin Glasses</h2>
+    <h2>Extremal Optimization Simulation for the Sherrington–Kirkpatrick Spin Glass</h2>
 
     <div class="row">
         <div class="column left">
           <p style="font-size: 16px;">
-          <label for="n">System size (<i>n</i>):</label><br>
-          <input type="number" id="n" min="100" max="600" value="250" step="50"> 
-          <span id="n_ins" style="color: gray; font-size: 14px">Enter a value between 100 and 600</span><br>
+          <label for="n">System size (<i>N</i>):</label><br>
+          <input type="number" id="n" min="2" max="600" value="250" step="50"> 
+          <span id="n_ins" style="color: gray; font-size: 14px"><br>Enter a value between 2 and 600</span><br><br>
       
-          <label for="tau">Tau parameter (for choosing ranks):</label><br>
+          <label for="tau">&tau; parameter (for choosing ranks):</label><br>
           <input type="number" id="tau" name="tau" value="1.25" min="0.5" max="2.5" step="0.25"> 
-          <span id="tau_ins" style="color: gray; font-size: 14px">Enter a value between 0.5 and 2.5</span><br>
+          <span id="tau_ins" style="color: gray; font-size: 14px"><br>Enter a value between 0.5 and 2.5</span><br><br>
       
           </p>
         </div>
@@ -292,8 +292,8 @@ function firstFrame() {
     
     var layout = {
         showlegend: false,
-        xaxis: {range: [-0.75*binRange, binRange], title: { text: 'Fitness'}},
-        yaxis: {range: [0, 0.385], tickformat: ',.0%', title: {text: 'Fraction of spins', standoff: 12}},
+        xaxis: {range: [-0.75*binRange, binRange], title: { text: 'Fitness &#955; '}},
+        yaxis: {range: [0, 0.385], tickformat: ',.0%', title: {text: 'Fraction of total spins', standoff: 12}},
         margin: {l: 100},
         annotations: [{
             xref: 'paper',
@@ -313,7 +313,7 @@ function firstFrame() {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Average Fitness = ${Math.round(avg)}`,
+            text: `Average fitness = ${Math.round(avg)}`,
             font: {size: 16, color: 'indigo'},
             showarrow: false,
         }, 
@@ -364,7 +364,7 @@ function runsim() {
 // }
 
 function update() {
-    if (t>3000)  {
+    if (t>10000)  {
         return 0;
     }
     runsim();
@@ -390,7 +390,7 @@ function update() {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Average Fitness = ${Math.round(avg)}`,
+            text: `Average fitness = ${Math.round(avg)}`,
             font: {size: 16, color: 'indigo'},
             showarrow: false,
         },
@@ -427,7 +427,7 @@ function update() {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Minimum Energy = ${realEnergy(minenergy)}`,
+            text: `Minimum energy = ${realEnergy(minenergy)}`,
             font: {size: 16, color:'#1f77b4'},
             showarrow: false,
         },
@@ -452,7 +452,7 @@ function update() {
 
 
 function updatebest() {
-    if (t>3000)  {
+    if (t>10000)  {
         return 0;
     }
 
@@ -478,7 +478,7 @@ function updatebest() {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Minimum Energy = ${realEnergy(minenergy)}`,
+            text: `Minimum energy = ${realEnergy(minenergy)}`,
             font: {size: 16, color:'#1f77b4'},
             showarrow: false,
         },
@@ -515,7 +515,7 @@ function updatebest() {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Average Fitness = ${Math.round(avg)}`,
+            text: `Average fitness = ${Math.round(avg)}`,
             font: {size: 16, color: 'indigo'},
             showarrow: false,
         },
@@ -592,7 +592,7 @@ var energyLayout = {
             xanchor: 'right',
             y: 1.07,
             yanchor: 'bottom',
-            text: `Minimum Energy = ${realEnergy(minenergy)}`,
+            text: `Minimum energy = ${realEnergy(minenergy)}`,
             font: {size: 16, color: '#1f77b4'},
             showarrow: false,
         }, ]
@@ -609,17 +609,22 @@ Plotly.newPlot(ENERGY, energyData, energyLayout);
 
 
 
-
-
-
-
-
-
-
-
-
-
 </script>
+<h3>User tips</h3>
+<ul><li>&tau; &rarr; 0 represents a random walk and &tau; &rarr; &infin; represents only updating the worst fitness. See how the energy curves differ in these two regimes!</li> 
+    <li>Hovering over each plot reveals a toolbar in the upper right corner. Try the "Autoscale" feature.</li>
+    <li>Observe how average fitness changes when you look at "best timesteps" versus when you look at "all timesteps".</li>
+</ul>
+<br>
+
+
+
+
+
+
+
+
+
 </body>
 <footer>
     Demo page created by: Ginger Lau <br>
