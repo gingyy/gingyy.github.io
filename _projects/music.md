@@ -7,7 +7,7 @@ importance: 3
 category: 
 ---
 
-[<ins>back</ins>](https://gingyy.github.io/other)
+<ins>[back](https://gingyy.github.io/other)</ins>
 
 I played timpani and percussion during undergrad and in Germany. At Emory, I had amazing teachers [Mark Yancich](https://music.emory.edu/people/biography/yancich-mark.html), [Scott Pollard](https://music.emory.edu/people/biography/pollard-scott.html), and [Paul Bhasin](https://music.emory.edu/people/biography/bhasin-paul.html), who taught me so much about music, life, and most of all, what it means to love your craft :)
 
