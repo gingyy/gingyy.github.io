@@ -7,6 +7,7 @@ importance: 2
 category: 
 ---
 
+[back](https://gingyy.github.io/other)
 
 <!-- The grid container initialized for Masonry -->
 <div class="row grid masonry">

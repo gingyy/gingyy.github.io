@@ -31,7 +31,7 @@ It's always fun to tell people that spin glasses neither spin nor are they made 
 In each step of the EO heuristic, the worst-performing spin is identified and its value is randomly changed (for better or for worse). Through this simple mechanism, the search alternates between converging toward local minima and triggering large cascades of change, enabling it to quickly explore many local minima in search of the global optimum.
 
 
-In my project, I implemented EO for a spin glass with 3-spin connections, an extension of the 2-spin Sherrington-Kirkpatrick model. In adapting EO for higher-order problems, we developed parallelization methods. I wrote my [undergraduate thesis](https://etd.library.emory.edu/concern/etds/rb68xd344) on this topic, and my work also contributed to a characterization of ground state behavior in this $p=3$ mean field spin glass, described in this *PRL* [paper](https://arxiv.org/abs/2501.13205).
+In my project, I implemented EO for a spin glass with 3-spin connections, an extension of the 2-spin Sherrington-Kirkpatrick model. In adapting EO for higher-order problems, we developed parallelization methods. I wrote my [undergraduate thesis](https://etd.library.emory.edu/concern/etds/rb68xd344) on this topic, and my work also contributed to a characterization of ground state behavior in this $p=3$ mean field spin glass, described in this *Physical Review Letters* [paper](https://arxiv.org/abs/2501.13205).
 
 
 
