@@ -1,3 +1,15 @@
 "PhysRevLett":
   url: https://journals.aps.org/prl/
-  color: "#c29fe3"
+  color: "#01A992"
+
+"POMA":
+  url: https://pubs.aip.org/asa/poma
+  color: "#003056"
+
+"JASA":
+  url: https://pubs.aip.org/asa/jasa
+  color: "#00A7E0"
+
+"Preprint":
+  url: https://arxiv.org/
+  color: "#c5c6c7"
