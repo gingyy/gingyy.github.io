@@ -24,7 +24,7 @@ Our work also belongs to the broader discussion on the role of specialized optim
 ---
 ### Emory University
 
-It's always fun to tell people that spin glasses neither spin nor are they made of glass. Through my work with [Stefan Boettcher](https://faculty.college.emory.edu/sites/boettcher/), I developed my interest in spin glass models and their connections to combinatorial optimization.
+It's always fun to tell people that spin glasses neither spin nor are they made of glass. Through working with [Stefan Boettcher](https://faculty.college.emory.edu/sites/boettcher/), I developed my interest in spin glass models and their connections to combinatorial optimization.
 
 [Extremal Optimization (EO)](https://en.wikipedia.org/wiki/Extremal_optimization) is a local search heuristic inspired by self-organization in nature. In ecosystems, a small change in one species can cascade through its interactions with other species, reshaping the ecosystem as a whole. Regardless of whether this change is "good" or "bad," the ecosystem will rearrange into an equilibrium either way.
 

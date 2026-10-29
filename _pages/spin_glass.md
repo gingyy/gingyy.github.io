@@ -8,7 +8,7 @@ nav_order:
 ---
 
 
-### *Non-technical explanation of spin glasses*
+### Non-technical explanation of spin glasses
 
 *At its simplest, in a spin glass, two spins either want to align by having same value or anti-align by having opposite values. Say you are organizing activities for summer camp. There are two choices: swimming or making smores. If you only have two campers, there are two possibilities for their relationship. If they are friends, they will be happy either swimming or making smores, as long as they can do it together. If they are enemies, one must swim and the other must make smores. They don't care who does what, as long as they do opposite activities.*
 

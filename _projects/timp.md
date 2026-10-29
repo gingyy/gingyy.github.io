@@ -7,7 +7,7 @@ importance: 3
 category: 
 ---
 
-I played timpani and percussion during undergrad and in Germany. At Emory, I had amazing teachers [Mark Yancich](https://music.emory.edu/people/biography/yancich-mark.html), [Scott Pollard](https://music.emory.edu/people/biography/pollard-scott.html), and [Paul Bhasin](https://music.emory.edu/people/biography/bhasin-paul.html), who taught me so much about music, life, and most of all, what it means to love your craft.
+I played timpani and percussion during undergrad and in Germany. At Emory, I had amazing teachers [Mark Yancich](https://music.emory.edu/people/biography/yancich-mark.html), [Scott Pollard](https://music.emory.edu/people/biography/pollard-scott.html), and [Paul Bhasin](https://music.emory.edu/people/biography/bhasin-paul.html), who taught me so much about music, life, and most of all, what it means to love your craft :)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -61,7 +61,7 @@ In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stutt
 
 <div class="row align-items-center">
     <div class="col-md-8">
-        <p class="mb-0">A long time ago, I performed in drum corps with [Blue Devils](https://bluedevils.org/) B and C.</p>
+        <p class="mb-0">A long time ago, I performed in drum corps with <a href="https://bluedevils.org/" target="_blank" rel="noopener noreferrer">Blue Devils</a> B and C.</p>
     </div>
     <div class="col-md-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dci.jpg" title="dci" class="img-fluid rounded z-depth-1" %}

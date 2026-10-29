@@ -12,8 +12,8 @@ profile:
     <p>Bay Area, CA</p>
     <p>ginger.lau@alumni.emory.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in designing and analyzing algorithms for challenging optimization problems, with a focus on discrete optimization and computational methods. My previous research has explored combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from Emory University.
+I am interested in designing and analyzing algorithms for challenging optimization problems, with a focus on discrete optimization and computational methods. My previous research has explored combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
 
 Most recently, I was at [NTT Research, Inc.](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/), advised by [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en). I worked on combinatorial optimization methods for the LABS/Bernasconi model, a spin glass problem with 4-spin interactions. We recently developed a [decomposition-based optimization](https://arxiv.org/pdf/2610.14361) heuristic.
 
@@ -38,6 +38,6 @@ I also spent a summer at the [Lawrence Livermore National Laboratory](https://ww
 
 See the [Research](https://gingyy.github.io/research) page for more information. 
 
-Outside of research, I served on the executive board of the [International Association of Physics Students](https://iaps.info/), an umbrella organization of national physics student associations around the world. I [also enjoy](https://gingyy.github.io/other) hiking, cycling, traveling, and music. 
+Outside of research, I have served on the executive board of the [International Association of Physics Students](https://iaps.info/). I [also enjoy](https://gingyy.github.io/other) hiking, cycling, traveling, and music.
 
 
