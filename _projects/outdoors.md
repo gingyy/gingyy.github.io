@@ -9,73 +9,128 @@ category:
 
 <ins>[back](https://gingyy.github.io/other)</ins>
 
-<!-- The grid container initialized for Masonry -->
-<div class="row grid masonry">
-    <!-- Item 1: Horizontal Image -->
-    <div class="grid-item mb-4">
-        <a href="{{ '/assets/img/h_allgaeu.jpeg' | relative_url }}" class="lightbox-link">
-            {% include figure.liquid loading="eager" path="assets/img/h_allgaeu.jpg" title="Click to zoom horizontal view" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <div class="caption mt-2 text-muted small">Testing.</div>
+<div class="photo-gallery">
+  {% assign photos = 
+    "h_allgaeu.jpeg|Allgäu,
+     h_blue.jpeg|Blue,
+     h_cow.jpeg|Countryside,
+     h_ebenalp.jpeg|Ebenalp" | split: "," %}
+
+  {% for photo in photos %}
+    {% assign details = photo | split: "|" %}
+    {% assign filename = details[0] | strip %}
+    {% assign caption = details[1] | strip %}
+    <div class="gallery-item">
+      <a
+        href="{{ '/assets/img/' | append: filename | relative_url }}"
+        class="lightbox-link"
+        aria-label="View {{ caption }}"
+      >
+        {% include figure.liquid
+          loading="lazy"
+          path=filename
+          class="gallery-image"
+          title=caption
+        %}
+      </a>
+
+      <div class="gallery-caption">{{ caption }}</div>
     </div>
-    <!-- Item 2: Vertical Image (Fits perfectly under or next to others) -->
-    <div class="grid-item mb-4">
-        <a href="{{ '/assets/img/h_blue.jpeg' | relative_url }}" class="lightbox-link">
-            {% include figure.liquid loading="eager" path="assets/img/h_blue.jpeg" title="Click to zoom portrait view" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <div class="caption mt-2 text-muted small">Testing.</div>
-    </div>
-    <!-- Item 3: Another Vertical Image -->
-    <div class="grid-item mb-4">
-        <a href="{{ '/assets/img/h_cow.jpeg' | relative_url }}" class="lightbox-link">
-            {% include figure.liquid loading="eager" path="assets/img/h_cow.jpeg" title="Click to zoom portrait view" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <div class="caption mt-2 text-muted small">Testing.</div>
-    </div>
-    <!-- Item 4: Square Image -->
-    <div class="grid-item mb-4">
-        <a href="{{ '/assets/img/h_ebenalp.jpeg' | relative_url }}" class="lightbox-link">
-            {% include figure.liquid loading="eager" path="assets/img/h_ebenalp.jpeg" title="Click to zoom square view" class="img-fluid rounded z-depth-1" %}
-        </a>
-        <div class="caption mt-2 text-muted small">Testing.</div>
-    </div>
+  {% endfor %}
+
 </div>
 
+<style>
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px 22px;
+    margin: 2rem 0;
+  }
 
+  .gallery-item {
+    min-width: 0;
+  }
 
+  .photo-gallery .gallery-item a {
+    display: block;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f3f3f3;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+  }
 
+  .photo-gallery .gallery-image,
+  .photo-gallery .gallery-item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0;
+    transition: transform 0.35s ease;
+  }
 
+  .photo-gallery .gallery-item a:hover img {
+    transform: scale(1.04);
+  }
+
+  .gallery-caption {
+    padding: 10px 3px 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color, #555);
+    letter-spacing: 0.02em;
+  }
+
+  @media (max-width: 991px) {
+    .photo-gallery {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px 16px;
+    }
+
+    .photo-gallery .gallery-image,
+    .photo-gallery .gallery-item img {
+      height: 230px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .photo-gallery {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .photo-gallery .gallery-image,
+    .photo-gallery .gallery-item img {
+      height: auto;
+      max-height: 400px;
+      object-fit: contain;
+    }
+  }
+</style>
 
 <script>
-    // Initialize Pinterest-style Masonry layout
-    $(document).ready(function() {
-    var $grid = $('.masonry').imagesLoaded(function() {
-        $grid.masonry({
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            columnWidth: '.grid-item'
-            });
-        });
-
-        // Initialize Zoom Lightbox Grouping
-        $('.masonry').magnificPopup({
-            delegate: '.lightbox-link', 
-            type: 'image',
-            gallery: {
-                enabled: true // Allows users to click arrow keys to cycle through all images
-            },
-            image: {
-                titleSrc: function(item) {
-                    // Pulls the text from the caption div right beneath the image to show inside the lightbox zoom view
-                    return item.el.parent().find('.caption').text();
-                }
-            },
-            mainClass: 'mfp-with-zoom', 
-            zoom: {
-                enabled: true,
-                duration: 300, // Smooth 0.3s expand animation
-                easing: 'ease-in-out'
-            }
-        });
+  $(document).ready(function () {
+    $('.photo-gallery').magnificPopup({
+      delegate: '.lightbox-link',
+      type: 'image',
+      gallery: {
+        enabled: true
+      },
+      image: {
+        titleSrc: function (item) {
+          return item.el
+            .closest('.gallery-item')
+            .find('.gallery-caption')
+            .text();
+        }
+      },
+      mainClass: 'mfp-with-zoom',
+      zoom: {
+        enabled: true,
+        duration: 300,
+        easing: 'ease-in-out'
+      }
     });
+  });
 </script>
