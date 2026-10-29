@@ -8,7 +8,7 @@ category:
 ---
 
 <ins>[back](https://gingyy.github.io/other)</ins>
-<br> 
+<br><br>
 mountains <3
 
 <div class="photo-gallery">
@@ -19,23 +19,23 @@ mountains <3
 
     assets/img/h_ridge.jpeg|Herzogstand & Heimgarten, Germany;
     assets/img/h_tegelberg.jpeg|Tegelberg, Germany;
-    assets/img/h_cow.jpeg|Schwarzwald, Germany;
-
     assets/img/h_hh.jpeg|Hawk Hill, California;
+
+    assets/img/h_cow.jpeg|Schwarzwald, Germany;
     assets/img/h_dv.jpeg|Death Valley, California;
     assets/img/h_glacier_vert.jpeg|Gornergletscher, Switzerland; 
 
-    assets/img/h_matterhorn_vert.jpeg|Matterhorn, Switzerland;
-    assets/img/h_ebenalp.jpeg|Ebenalp, Switzerland;
     assets/img/h_bike_1.jpeg|Golden Gate Bridge, California;
+    assets/img/h_poland.jpeg|High Tatras, Poland;
+    assets/img/h_matterhorn_vert.jpeg|Matterhorn, Switzerland;
 
-    assets/img/h_group.jpeg|Marin County, California;
-    assets/img/h_hk.jpeg|Maclehose Trail, Hong Kong;
     assets/img/h_ut_vert.jpeg|Capitol Reef, Utah;
+    assets/img/h_hk.jpeg|Maclehose Trail, Hong Kong;
+    assets/img/h_group.jpeg|Marin County, California;
 
     assets/img/h_partnachklamm.jpeg|Partnachklamm, Germany;
-    assets/img/h_oesch.jpeg|Oeschinensee, Switzerland;
-    assets/img/h_watzmann.jpeg|Watzmann, Germany" | split: ";" %}
+    assets/img/h_watzmann.jpeg|Watzmann, Germany; 
+    assets/img/h_oesch.jpeg|Oeschinensee, Switzerland" | split: ";" %}
 
 
 
