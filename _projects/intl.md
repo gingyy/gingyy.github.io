@@ -25,10 +25,11 @@ category:
     </div>
     <div class="col-md-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/iaps.jpeg" title="iaps" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="caption">
     Representative for IAPS at the AIP <a href="https://students.aip.org/sps" target="_blank" rel="noopener noreferrer">Society of Physics Students (SPS)</a> Congress, 2025.
     </div>
+    </div>
+    
 </div>
 
 
