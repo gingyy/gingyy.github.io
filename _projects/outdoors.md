@@ -30,8 +30,8 @@ mountains <3
     assets/img/h_hk.jpeg|Maclehose Trail, Hong Kong;
 
     assets/img/h_dv.jpeg|Death Valley, California;
-    assets/img/h_ut_vert.jpeg|Capitol Reef, Utah;
     assets/img/h_poland.jpeg|High Tatras, Poland;   
+    assets/img/h_ut_vert.jpeg|Capitol Reef, Utah;
 
     assets/img/h_partnachklamm.jpeg|Partnachklamm, Germany;
     assets/img/h_watzmann.jpeg|Watzmann, Germany; 
