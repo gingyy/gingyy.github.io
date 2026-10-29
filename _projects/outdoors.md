@@ -11,10 +11,33 @@ category:
 
 <div class="photo-gallery">
   {% assign photos = 
-    "assets/img/h_allgaeu.jpeg|Allgäu,
-     assets/img/h_blue.jpeg|Blue,
-     assets/img/h_cow.jpeg|Countryside,
-     assets/img/h_ebenalp.jpeg|Ebenalp" | split: "," %}
+    "assets/img/h_hoernlihuette.jpeg|Hörnliweg, Switzerland;
+    assets/img/h_kemptner.jpeg|Kemptner Hütte, Germany;
+    assets/img/h_morskie.jpeg|Morskie Oko, Poland;
+
+    assets/img/h_watzmann.jpeg|Watzmann, Germany;
+    assets/img/h_tegelberg.jpeg|Tegelberg, Germany;
+    assets/img/h_yos.jpeg|Yosemite, California;
+
+    assets/img/h_hh.jpeg|Hawk Hill, California;
+    assets/img/h_matterhorn.jpeg|Matterhorn, Switzerland;
+    assets/img/h_ridge.jpeg|Herzogstand & Heimgarten, Germany;
+
+    assets/img/h_cow.jpeg|Schwarzwald, Germany;
+    assets/img/h_ut.jpeg|Capitol Reef, Utah;
+    assets/img/h_allgaeu.jpeg|Allgäu, Germany;
+
+    assets/img/h_bike_2.jpeg|Golden Gate Bridge, California;
+    assets/img/h_dv.jpeg|Death Valley, California;
+    assets/img/h_hk.jpeg|Maclehose Trail, Hong Kong;
+
+    assets/img/h_ebenalp.jpeg|Ebenalp, Switzerland;
+    assets/img/h_group.jpeg|Marin County, California;
+    assets/img/h_zug.jpeg|Wetterstein, Germany;
+
+    assets/img/h_partnachklamm.jpeg|Partnachklamm, Germany;
+    assets/img/h_glacier.jpeg|Gornergletscher, Switzerland; 
+    assets/img/h_oesch.jpeg|Oeschinensee, Switzerland" | split: ";" %}
 
   {% for photo in photos %}
     {% assign details = photo | split: "|" %}

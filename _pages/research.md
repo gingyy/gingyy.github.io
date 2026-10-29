@@ -72,4 +72,4 @@ After the summer, I continued working virtually with Dr. Neilsen, presented my f
 
 ---
 ---
-*Bonus: click [here](https://gingyy.github.io/research/sg) for a non-technical explanation of spin glasses.*
+*Bonus: click [here](https://gingyy.github.io/research/spin-glass) for a non-technical explanation of spin glasses.*

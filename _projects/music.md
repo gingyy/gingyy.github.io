@@ -44,7 +44,7 @@ I played timpani and percussion during undergrad and in Germany. At Emory, I had
     </div>
 </div>
 
-In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stuttgart.de/) and [Das Benefizorchester e.V.](https://www.dasbenefizorchester.de/) The rehearsals were entirely in German, and I have indeed screwed up the numbers on multiple occasions ;) (In German, the last digit is spoken before the digit in the tens place.)
+In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stuttgart.de/) and [Das Benefizorchester e.V.](https://www.dasbenefizorchester.de/) The rehearsals were entirely in German, and I have indeed screwed up the numbers on multiple occasions ;) 
 
 
 
@@ -55,7 +55,7 @@ In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stutt
 
 <div class="row align-items-center">
     <div class="col-md-8">
-        <p class="mb-0">Back in high school, I performed in drum corps with <a href="https://bluedevils.org/" target="_blank" rel="noopener noreferrer">Blue Devils</a> B and C.</p>
+        <p class="mb-0">Back in high school, I performed in drum corps with <a href="https://bluedevils.org/" target="_blank" rel="noopener noreferrer">Blue Devils</a> B and C!</p>
     </div>
     <div class="col-md-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dci.jpg" title="dci" class="img-fluid rounded z-depth-1" %}
