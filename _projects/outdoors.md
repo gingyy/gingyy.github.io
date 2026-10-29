@@ -11,10 +11,10 @@ category:
 
 <div class="photo-gallery">
   {% assign photos = 
-    "h_allgaeu.jpeg|Allgäu,
-     h_blue.jpeg|Blue,
-     h_cow.jpeg|Countryside,
-     h_ebenalp.jpeg|Ebenalp" | split: "," %}
+    "assets/img/h_allgaeu.jpeg|Allgäu,
+     assets/img/h_blue.jpeg|Blue,
+     assets/img/h_cow.jpeg|Countryside,
+     assets/img/h_ebenalp.jpeg|Ebenalp" | split: "," %}
 
   {% for photo in photos %}
     {% assign details = photo | split: "|" %}
