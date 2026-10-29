@@ -25,13 +25,13 @@ mountains <3
     assets/img/h_dv.jpeg|Death Valley, California;
     assets/img/h_glacier_vert.jpeg|Gornergletscher, Switzerland; 
 
-    assets/img/h_matterhorn.jpeg|Matterhorn, Switzerland;
+    assets/img/h_matterhorn_vert.jpeg|Matterhorn, Switzerland;
     assets/img/h_ebenalp.jpeg|Ebenalp, Switzerland;
     assets/img/h_bike_1.jpeg|Golden Gate Bridge, California;
 
     assets/img/h_group.jpeg|Marin County, California;
     assets/img/h_hk.jpeg|Maclehose Trail, Hong Kong;
-    assets/img/h_ut.jpeg|Capitol Reef, Utah;
+    assets/img/h_ut_vert.jpeg|Capitol Reef, Utah;
 
     assets/img/h_partnachklamm.jpeg|Partnachklamm, Germany;
     assets/img/h_oesch.jpeg|Oeschinensee, Switzerland;
