@@ -33,7 +33,6 @@ I played timpani and percussion during undergrad and in Germany. At Emory, I had
 </div>
 
 <br>
-In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stuttgart.de/) and [Das Benefizorchester e.V.](https://www.dasbenefizorchester.de/) The rehearsals were entirely in German, and I have indeed screwed up the numbers on multiple occasions ;) (In German, the last digit is spoken before the digit in the tens place.)
 
 
 <div class="row">
@@ -44,6 +43,8 @@ In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stutt
         {% include figure.liquid loading="eager" path="assets/img/orch_3.jpg" title="orchestra in germany" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+In Germany, I joined the [Stuttgart Uniorchester](https://www.unimusik.uni-stuttgart.de/) and [Das Benefizorchester e.V.](https://www.dasbenefizorchester.de/) The rehearsals were entirely in German, and I have indeed screwed up the numbers on multiple occasions ;) (In German, the last digit is spoken before the digit in the tens place.)
 
 
 

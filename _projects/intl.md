@@ -7,7 +7,7 @@ importance: 1
 category: 
 ---
 
-[back](https://gingyy.github.io/other)
+<ins>[back](https://gingyy.github.io/other)</ins>
 
 <div class="row align-items-center">
     <div class="col-md-8">
