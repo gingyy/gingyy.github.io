@@ -26,11 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in designing and analyzing algorithms for challenging optimization problems, with a focus on discrete optimization and computational methods. My previous research has explored combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
+I am interested in designing algorithms for challenging optimization problems, with a focus on discrete optimization and computational methods. My past research has explored combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
 
 Most recently, I was at [NTT Research, Inc.](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/), advised by [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en). I worked on combinatorial optimization methods for the LABS/Bernasconi model, a spin glass problem with 4-spin interactions. We recently developed a [decomposition-based optimization](https://arxiv.org/pdf/2610.14361) heuristic.
 
-Prior to this, I was awarded a [Fulbright Germany Research/Study Grant](https://us.fulbrightonline.org/) and spent one year at the [Stuttgart Center for Simulation Science (SimTech)](https://www.simtech.uni-stuttgart.de/sc/). In the group of [Miriam Klopotek](https://www.simtech.uni-stuttgart.de/career/junior-research-groups/many-body-simulations/), I investigated self-organizational behavior in the many-body "swarmalator" system, with potential applications in distributed control and novel computational methods.
+Prior to this, I was awarded a [Fulbright Germany Research/Study Grant](https://us.fulbrightonline.org/) and spent one year at the [Stuttgart Center for Simulation Science (SimTech)](https://www.simtech.uni-stuttgart.de/sc/). In the group of [Miriam Klopotek](https://www.simtech.uni-stuttgart.de/career/junior-research-groups/many-body-simulations/), I investigated self-organizational behavior in the many-body "swarmalator" system, with potential applications in distributed control and novel computation methods.
 
 During undergrad, I worked with [Stefan Boettcher](https://faculty.college.emory.edu/sites/boettcher/) on combinatorial optimization heuristics for a spin glass problem with 3-spin interactions. I worked on methods to extend the [Extremal Optimization](https://journals.aps.org/prl/abstract/10.1103/j159-lpfx) heuristic for higher-order interactions.
 
