@@ -67,58 +67,61 @@ mountains <3
 
 <style>
     .photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: start;
-    gap: 28px 22px;
-    margin: 2rem 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: start;
+      gap: 28px 22px;
+      margin: 2rem 0;
     }
 
     .gallery-item {
-    min-width: 0;
+      min-width: 0;
     }
 
     .photo-gallery .gallery-item a {
-    display: block;
-    overflow: hidden;
-    border-radius: 12px;
-    background: #f3f3f3;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+      display: block;
+      overflow: hidden;
+      border-radius: 12px;
+      background: transparent;
+      aspect-ratio: 4 / 3;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
     }
 
     .photo-gallery .gallery-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 12px;
-    margin: 0;
-    transition: transform 0.35s ease;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
+      margin: 0;
+      padding: 0;
+      transition: transform 0.35s ease;
     }
 
     .photo-gallery .gallery-item a:hover img {
-    transform: scale(1.03);
+      transform: scale(1.03);
     }
 
     .gallery-caption {
-    padding: 10px 3px 0;
-    font-size: 0.9rem;
-    color: var(--global-text-color, #555);
-    letter-spacing: 0.02em;
+      padding: 10px 3px 0;
+      font-size: 0.9rem;
+      color: var(--global-text-color, #555);
+      letter-spacing: 0.02em;
     }
 
     @media (max-width: 991px) {
-    .photo-gallery {
+      .photo-gallery {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 22px 16px;
-    }
+      }
     }
 
     @media (max-width: 575px) {
-    .photo-gallery {
+      .photo-gallery {
         grid-template-columns: 1fr;
         gap: 24px;
-    }
+      }
     }
 </style>
 
