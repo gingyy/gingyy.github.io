@@ -10,7 +10,17 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bay Area, CA</p>
-    <p>ginger.lau@fulbrightmail.org</p>
+    <div class="email">
+      ging
+      <span>ivitis</span>
+      er.lau
+      <span>ri@</span>
+      @fulbr
+      <span>ightm</span>
+      ai
+      <span><ling</span>
+      l.org
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -41,3 +51,10 @@ See the [Research](https://gingyy.github.io/research) page for more information.
 Outside of research, I have served on the executive board of the [International Association of Physics Students](https://iaps.info/). I [also enjoy](https://gingyy.github.io/other) hiking, cycling, traveling, and music.
 
 
+<style>
+  .email span:nth-of-type(1),
+  .email span:nth-of-type(2)
+  .email span:nth-of-type(4) {
+    display: none;
+  }
+</style>
