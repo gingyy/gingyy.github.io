@@ -10,9 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bay Area, CA</p>
-    <div class="email">
-      ging<span>ivitis</span>er.lau<span>ri@</span>@fulbr<span>ightm</span>ai<span><ling</span>l.org
-    </div>
+    <div class="email">ging<span>ivitis</span>er.lau<span>ri@</span>@fulbr<span>ightm</span>ai<span>ling</span>l.org</div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
