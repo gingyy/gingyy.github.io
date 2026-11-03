@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in designing algorithms for challenging optimization problems, with past research in combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
+I am interested in designing algorithms for challenging optimization problems, with past research in combinatorial optimization, statistical physics, and machine learning. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
 
 Most recently, I was at [NTT Research, Inc.](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/), advised by [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en). I worked on combinatorial optimization methods for the LABS/Bernasconi model, a spin glass problem with 4-spin interactions. We recently developed a [decomposition-based optimization](https://arxiv.org/pdf/2610.14361) heuristic.
 
