@@ -199,7 +199,7 @@ collections:
     output: true
   projects:
     output: true
-    output_permalink: /other/:path/
+    permalink: /other/:path/
   teachings:
     output: true
 
