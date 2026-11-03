@@ -12,12 +12,12 @@ nav_order: 2
 
 Most recently, I was at [NTT Research](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/). Working with [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en), I developed methods for a new combinatorial optimization metaheuristic competitive with current state-of-the-art classical and quantum heuristics such as Memetic Tabu Search and QAOA. This was a very fun opportunity to return to discrete optimization problems, which first captured my interest during undergrad.
 
-The problem I worked on is called [Low Autocorrelation Binary Sequences (LABS)](https://arxiv.org/abs/1512.02475), an NP-hard combinatorial optimization problem. It has practical applications in signal processing and communications engineering, and is also a hard benchmarking problem. In LABS, we aim to determine a sequence of binary variables in which the values correlate the least with itself when the sequence is delayed. This is particularly helpful when designing signals to minimize interference with itself.
+The problem I worked on is called [Low Autocorrelation Binary Sequences (LABS)](https://arxiv.org/abs/1512.02475), an NP-hard combinatorial optimization problem. It has practical applications in signal processing and communications engineering, and also as a hard benchmarking problem for classical and quantum algorithms. In LABS, we aim to determine a sequence of binary variables in which the values correlate the least with itself when the sequence is delayed. This is particularly helpful when designing signals to minimize interference.
 
-LABS can be formulated as the Bernasconi spin glass model, with long-range 4-spin interactions. While existing methods generally involve optimizing the entire sequence (of length $N$), our method involves instead only optimizing very small *subsystems* (of $n=4$ spins at a time) and is still capable of obtaining the full optimal sequence for at least up to $N=60$.
+LABS can be formulated as the Bernasconi spin glass model, which has long-range 4-spin interactions. While existing methods generally involve optimizing the entire sequence (of length $N$), our method involves only optimizing very small *subsystems* (of $n=4$ spins at a time) and is still capable of obtaining the full optimal sequence for at least up to $N=60$.
 
 See the details of our method and scaling results in our new [preprint](https://arxiv.org/pdf/2610.14361).
-Our work also belongs to the broader discussion on the role of specialized optimization hardware. Since we are able to decompose the LABS problem and still obtain global optimization with good scaling, specialized hardware with only a few logical variables could potentially see real practical value in large-scale discrete optimization problems.
+Our work also belongs to the broader discussion on the role of specialized optimization hardware. Since we are able to decompose the LABS problem and obtain global optimization with good scaling, specialized hardware with only a few logical variables could potentially see real practical value in large-scale discrete optimization problems.
 
 
 
