@@ -21,7 +21,7 @@ category:
 
 <div class="row align-items-center">
     <div class="col-md-8">
-        <p class="mb-0">I previously served on the executive board of the <a href="https://iaps.info" target="_blank" rel="noopener noreferrer">International Association of Physics Students (IAPS)</a> as the Membership Manager. IAPS connects university physics organizations around the world to promote friendly relations and peaceful collaboration. Physics undergraduates, masters, PhD students, and recent graduates should check out the IAPS <a href="https://iaps.info" target="_blank" rel="noopener noreferrer">website</a> for opportunities.</p>
+        <p class="mb-0">I previously served on the executive board of the <a href="https://iaps.info" target="_blank" rel="noopener noreferrer">International Association of Physics Students (IAPS)</a> as the Membership Manager. IAPS connects university physics organizations around the world to promote peaceful relations and collaboration. Physics undergraduates, masters, PhD students, and recent graduates should check out the IAPS <a href="https://iaps.info" target="_blank" rel="noopener noreferrer">website</a> for opportunities.</p>
     </div>
     <div class="col-md-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/iaps.jpeg" title="iaps" class="img-fluid rounded z-depth-1" %}
