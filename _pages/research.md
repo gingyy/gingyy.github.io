@@ -12,7 +12,7 @@ nav_order: 2
 
 Most recently, I was at [NTT Research](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/). Working with [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en), I developed methods for a new combinatorial optimization metaheuristic competitive with current state-of-the-art classical and quantum heuristics such as Memetic Tabu Search and QAOA. This was a very fun opportunity to return to discrete optimization problems, which first captured my interest during undergrad.
 
-The problem I worked on is called [Low Autocorrelation Binary Sequences (LABS)](https://arxiv.org/abs/1512.02475), an NP-hard combinatorial optimization problem used in benchmarking classical and quantum algorithms. It also has practical applications in signal processing and communications engineering. In LABS, we aim to determine a sequence of binary variables which correlates the least with itself when the sequence is delayed. This is particularly helpful when designing signals to minimize interference.
+The problem I worked on is called [Low Autocorrelation Binary Sequences (LABS)](https://arxiv.org/abs/1512.02475), an NP-hard combinatorial optimization problem used in benchmarking classical and quantum algorithms. It also has practical applications in signal processing and communications engineering. In LABS, we aim to determine a sequence of binary variables which correlates the least with itself when the sequence is shifted. This means the signal will have minimal interference with itself.
 
 LABS can be formulated as the Bernasconi spin glass model, which has long-range 4-spin interactions. While existing methods generally involve optimizing the entire sequence (of length $N$), our method involves only optimizing very small *subsystems* (of $n=4$ spins at a time) and is still capable of obtaining the full optimal sequence for at least up to $N=60$.
 
@@ -39,9 +39,9 @@ In my project, I implemented EO for a spin glass with 3-spin connections, an ext
 ---
 ### Fulbright Germany
 
-I was very fortunate to spend one year abroad in Stuttgart, Germany through a [Fulbright Study/Research Award](https://us.fulbrightonline.org/). I was at the [Stuttgart Center for Simulation Science (SimTech)](https://www.simtech.uni-stuttgart.de/sc/) in the group of [Miriam Klopotek](https://www.simtech.uni-stuttgart.de/career/junior-research-groups/many-body-simulations/). Alongside increasing my foreign language skills and enjoying a new culture, I worked on oscillators that synchronize and swarm, also known as [swarmalators](https://www.complexity-explorables.org/explorables/swarmalators/). Swarming (e.g., flocks of birds) and synchronization (e.g., fireflies flashing) are both self-organizational behaviors in systems. 
+I was very fortunate to spend one year abroad in Stuttgart, Germany through a [Fulbright Study/Research Award](https://us.fulbrightonline.org/). I was at the [Stuttgart Center for Simulation Science (SimTech)](https://www.simtech.uni-stuttgart.de/sc/) in the group of [Miriam Klopotek](https://www.simtech.uni-stuttgart.de/career/junior-research-groups/many-body-simulations/). Alongside increasing my foreign language skills and enjoying a new culture, I worked on oscillators that synchronize and swarm, also known as [swarmalators](https://www.complexity-explorables.org/explorables/swarmalators/). 
 
-In this project, I explored how principles of self-organization in many-body systems can inspire new approaches to computing. I implemented a leader agent in swarmalator systems and characterized the spread of external information via spatial and phase interactions. 
+Swarming (e.g., flocks of birds) and synchronization (e.g., fireflies flashing) are both self-organizational behaviors. In this project, I explored how principles of self-organization in many-body systems can inspire new approaches to computing. I implemented a leader agent in swarmalator systems and characterized the spread of external information via spatial and phase interactions. 
 
 
 The presence of a leader gives rise to dynamic swarmalator behavior, which I presented in a talk at the [German Physical Society (DPG) Spring Meeting](https://www.dpg-verhandlungen.de/year/2025/conference/regensburg/part/dy/session/3/contribution/8?lang=en). This work can have potential applications in distributed systems, such as robotic swarms and other autonomous multi-agent systems. 
@@ -71,4 +71,4 @@ After the summer, I continued working virtually with Dr. Neilsen, presented my f
 
 ---
 ---
-*Bonus: click [here](https://gingyy.github.io/research/spin-glass) for a non-technical explanation of spin glasses.*
+*Bonus: click [here](https://gingyy.github.io/research/spin-glass) for a non-technical explanation of spin glasses :)*
