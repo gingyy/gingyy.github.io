@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bay Area, CA</p>
-    <div class="email">ging<span>ivitis</span>er.lau<span>ri@</span>@fulbr<span>ightm</span>ai<span>ling</span>l.org</div>
+    <div class="email">ging<span>ivitis</span>er.lau<span>ri [at] </span> [at] fulbr<span>ightm</span>ai<span>ling</span>l.org</div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am interested in designing algorithms for challenging optimization problems, with a focus on discrete optimization and computational methods. My past research explored combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
+I am interested in designing algorithms for challenging optimization problems, with past research in combinatorial optimization algorithms and nature-inspired approaches to computation. I graduated in 2024 with a B.S. in Physics from [Emory University](https://www.emory.edu).
 
 Most recently, I was at [NTT Research, Inc.](https://ntt-research.com/) in the [Physics & Informatics Laboratory](https://phi.ntt-research.com/), advised by [Adil Gangat](https://scholar.google.com/citations?user=BAvEYIUAAAAJ&hl=en). I worked on combinatorial optimization methods for the LABS/Bernasconi model, a spin glass problem with 4-spin interactions. We recently developed a [decomposition-based optimization](https://arxiv.org/pdf/2610.14361) heuristic.
 
