@@ -46,19 +46,12 @@ mountains <3
     {% assign filename = details[0] | strip %}
     {% assign caption = details[1] | strip %}
     <div class="gallery-item">
-      <a
-        href="{{ '/assets/img/' | append: filename | relative_url }}"
-        class="lightbox-link"
-        aria-label="View {{ caption }}"
-      >
-        {% include figure.liquid
-          loading="lazy"
-          path=filename
-          class="gallery-image"
-          title=caption
-        %}
-      </a>
-
+      {% include figure.liquid
+        loading="lazy"
+        path=filename
+        class="gallery-image"
+        title=caption
+      %}
       <div class="gallery-caption">{{ caption }}</div>
     </div>
   {% endfor %}
@@ -124,29 +117,3 @@ mountains <3
       }
     }
 </style>
-
-<script>
-  $(document).ready(function () {
-    $('.photo-gallery').magnificPopup({
-      delegate: '.lightbox-link',
-      type: 'image',
-      gallery: {
-        enabled: true
-      },
-      image: {
-        titleSrc: function (item) {
-          return item.el
-            .closest('.gallery-item')
-            .find('.gallery-caption')
-            .text();
-        }
-      },
-      mainClass: 'mfp-with-zoom',
-      zoom: {
-        enabled: true,
-        duration: 300,
-        easing: 'ease-in-out'
-      }
-    });
-  });
-</script>
