@@ -14,17 +14,17 @@ I played timpani and percussion during undergrad and in Germany. At Emory, I had
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/H-34q-kZf3w?si=DXEten8LEfuLcKTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
+            <iframe src="https://www.youtube.com/embed/H-34q-kZf3w?si=DXEten8LEfuLcKTt" title="YouTube video player - Mahler" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/2CPqCe22db4?si=M9AWVKWRADBKUyFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
+            <iframe src="https://www.youtube.com/embed/2CPqCe22db4?si=M9AWVKWRADBKUyFU" title="YouTube video player - Verdi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/ihhoRnzPPD8?si=YHkkeLYVtI-X2TQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
+            <iframe src="https://www.youtube.com/embed/ihhoRnzPPD8?si=YHkkeLYVtI-X2TQF" title="YouTube video player - RK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded z-depth-1"></iframe>
         </div>
     </div>
 </div>
@@ -37,14 +37,14 @@ I played timpani and percussion during undergrad and in Germany. At Emory, I had
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/orch_1.jpg" title="orchestra in germany" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/orch_1.jpg" title="Orchestra in germany" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/orch_3.jpg" title="orchestra in germany" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/orch_3.jpg" title="Orchestra in germany" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    In Germany, I joined the <a href="https://www.unimusik.uni-stuttgart.de/" target="_blank" rel="noopener noreferrer">Stuttgart Uniorchester</a> and <a href="https://www.dasbenefizorchester.de/" target="_blank" rel="noopener noreferrer">Das Benefizorchester e.V.</a> as a timpanist. The rehearsals were entirely in German, and I have indeed screwed up the numbers on more than one occasion... (The order of the tens and ones place are reversed in German numbers.)
+    In Germany, I joined the <a href="https://www.unimusik.uni-stuttgart.de/" target="_blank" rel="noopener noreferrer">Stuttgart Uniorchester</a> and <a href="https://www.dasbenefizorchester.de/" target="_blank" rel="noopener noreferrer">Das Benefizorchester e.V.</a> as a timpanist.
 </div>
 
 
@@ -56,7 +56,7 @@ I played timpani and percussion during undergrad and in Germany. At Emory, I had
         <p class="mb-0">Back in high school, I performed in drum corps with <a href="https://bluedevils.org/" target="_blank" rel="noopener noreferrer">Blue Devils</a> B and C!</p>
     </div>
     <div class="col-md-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dci.jpg" title="dci" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dci.jpg" title="DCI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
